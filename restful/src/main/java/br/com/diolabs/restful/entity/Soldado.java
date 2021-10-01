@@ -5,6 +5,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+import br.com.diolabs.restful.enums.RacaEnum;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -23,7 +24,7 @@ public class Soldado {
     
     private String cpf;   
     private String nome;
-    private String raca;
+    private RacaEnum raca;
     private String arma;
     private String status;
 }
